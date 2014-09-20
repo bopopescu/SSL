@@ -1,0 +1,3 @@
+<?
+include "controllers/homeControllers.php";
+?>
