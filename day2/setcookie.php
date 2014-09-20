@@ -1,0 +1,3 @@
+<?php
+setcookie("ssl","ssl");
+?>
