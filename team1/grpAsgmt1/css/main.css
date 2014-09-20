@@ -1,0 +1,52 @@
+.editors {
+	border: none;
+}
+body {
+	background-image:url('../images/background.png');
+	background-color:black;
+}
+
+h1 {
+	color:#F5F5F5;
+	margin:auto 0;
+	margin-left:25%;
+	margin-bottom:1%;
+	font-family: 'Permanent Marker', cursive;
+	margin-top:1%;
+}
+
+.space {
+	margin-bottom:1%;
+}
+
+#list {
+	margin-left:5%;
+	list-style-type:none;
+}
+
+#userH1 {
+	margin:0 auto;
+	margin-left:460px;
+}
+
+.box {
+	width:400px;
+	background-color:rgba(50,50,50,.5);
+	border-radius:5px;
+	padding:1%;
+	padding-top:.5px;
+	margin:0 auto;
+}
+h3 {
+	color:grey;
+}
+
+li {
+	list-style-type: none;
+	margin-left:-58px;
+	font-size:1.5em;
+}
+
+.close {
+display:inline-block;
+}
