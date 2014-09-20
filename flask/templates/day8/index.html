@@ -1,0 +1,71 @@
+<html>
+<head>
+	<style>
+		body{
+			width: 1020px;
+			margin: 0 auto;
+			font-size: 62.5%;
+			font-family: sans-serif;
+		}
+		h1{
+			font-size: 3.4em;
+		}
+		ul{
+			margin-left: 25px;
+			font-size: 1.4em;
+			list-style: none;
+		}
+		ul li{
+			height:40px;
+			margin: 30px 0;
+			text-transform: capitalize;
+		}
+		i{
+			font-size: 1.2em;
+		}
+		a{
+			display:inline-block;
+			text-decoration: none;
+			color: #333;
+			font-size: .9em;
+			padding: 13px 15px 10px;
+			background: #0B2E2E;
+			border-radius: 8px;
+			color: #FBB705;
+			-webkit-transition: all .5s ease;
+			transition: all .5s ease;
+		}
+		a:hover{
+			background:#0B618B;
+		}
+		.delete{
+			display:inline-block;
+			border-radius: 50%;
+			background: #981B29;
+			color: #EFEFEF;
+			height:14px;
+			width: 7px;
+			text-align: center;
+			padding-top: 11px;
+			float:left;
+			margin: -8px 15px 0 0;
+		}
+		.edit{
+			margin: -8px 15px 0 0;
+		}
+	</style>
+</head>
+<body>
+	<h1>SSL - Day 8</h1>
+	<a href="./addform">Add Fruit</a>
+	<ul>
+		{% for item in pagedata %}
+			<li class="{{item[1]}}">
+				<a href="./delete?id={{item[0]}}" class="delete">X</a>
+				<a class="edit" href="./edit?id={{item[0]}}&name={{item[1]}}&color={{item[2]}}">Edit</a>
+				The <i>{{item[1]}}</i> is <i>{{item[2]}}</i>
+			</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>

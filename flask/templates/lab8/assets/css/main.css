@@ -1,0 +1,15 @@
+html{
+	background: #F7F9F9;
+}
+body{
+	width: 1020px;
+	margin: 0 auto;
+}
+#login{
+	width: 300px;
+	margin: 0 auto;
+}
+#login div{
+	clear: both;
+	margin: 5px 0;
+}
