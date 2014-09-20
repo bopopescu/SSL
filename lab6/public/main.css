@@ -1,0 +1,16 @@
+body{
+	width: 1020px;
+	margin: 0 auto;
+}
+form{
+	padding: 10px;
+}
+.entries{
+	background: rgba(230,230,230,.35);
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(150,150,150,.4)
+}
+ul{
+	list-style: none;
+	padding: 0;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Meta -->
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=1020" />
+
+	<!-- Title -->
+		<title>Aperature</title>
+
+	<!-- CSS -->
+		<link rel="stylesheet" href="../../assets/css/main.css">
+		<!-- <link rel="stylesheet" href="../../assets/font-awesome-4.1.0/css/font-awesome.min.css"> -->
+
+	<!-- Favicon -->
+		<link rel="shortcut icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" 
+				type="image/png" 
+				href="../../assets/images/favicon.png">
+
+	<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+        
+	<!-- JavaScript -->
+		<script  src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script  src="../../assets/js/screenSize.js"></script>
+		<script src="../../assets/js/jssor.slider.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- =================================  HEADER
+			========================================== -->
+			<header>
+				<div class="width">
+					<h1><img src="http://fc08.deviantart.net/fs70/f/2012/151/4/6/aperture_science_by_polishxcii-d51u17o.png" height="75">Aperature</h1>
+					<nav>
+						<ul>
+							<li>About</li>
+						</ul>
+					</nav>
+				</div> <!-- width -->
+			</header>
+<!-- =================================  CONTENT
+========================================== -->
+			<main>
+				<div id="slider1_container">
+					<div class="slides" u="slides">
+				        <div class="slide">
+				        	<img u="image" src="../../assets/images/userImages/holly_1/View Out the Back of the Fueler Djibouti, Africa.jpg" />
+				        </div>
+				        <div class="slide">
+				        	<img u="image" src="../../assets/images/userImages/holly_1/_DSC1517.jpg" />
+				        </div>
+				        <div class="slide">
+				        	<img u="image" src="../../assets/images/userImages/holly_1/Aircrew Along for the Ride 2 Djibouti, Africa.jpg" />
+				        </div>
+				        <div class="slide">
+				        	<img u="image" src="../../assets/images/userImages/holly_1/Flying over Lake Assal, Djibouti, Africa.jpg" />
+				        </div>
+				        <div class="slide">
+				        	<img u="image" src="../../assets/images/userImages/holly_1/Sling Load Djibouti, Africa.jpg" />
+				        </div>
+				    </div>
+					<img id="bg" >
+				</div>
+				<div class="width">
+					<div class="signReg">
+						<form class="signIn" method="POST" action="../models/login.php">
+							<div>
+								<label for="username">Username</label>
+								<input id="username" type="text" placeholder="Username">
+							</div>
+							<div>
+								<label for="pass">Password</label>
+								<input id="pass" type="password" placeholder="Password">
+							</div>
+							<input type="submit" value="Log In">
+						</form>
+						<div class="register">
+							<h3>Not a Member Yet?</h3>
+							<p class="registerButton button">Register</p>
+						</div>
+					</div>
+				</div>
+				<div class="modalWindow registerModalWindow">
+					<div class="registerModal modal">
+						<p class="registerModalClose">X</p>
+						<h3>Register</h3>
+						<form class="signIn" method="POST" action="../models/login.php">
+							<div>
+								<label for="fname">First Name</label>
+								<input id="fname" type="text" placeholder="First Name">
+							</div>
+							<div>
+								<label for="lname">Last Name</label>
+								<input id="lname" type="text" placeholder="Last Name">
+							</div>
+							<div>
+								<label for="username">Username</label>
+								<input id="username" type="text" placeholder="Username">
+							</div>
+							<div>
+								<label for="pass">Password</label>
+								<input id="pass" type="password" placeholder="Password">
+							</div>
+							<div>
+								<label for="pass2">Re-Type Password</label>
+								<input id="pass2" type="password" placeholder="Re-Type Password">
+							</div>
+							<div>
+								<label for="email">Email</label>
+								<input id="email" type="email" placeholder="ex. email@domain.com">
+							</div>
+							<div class="terms">
+								<small>I agree to the Terms</small>
+								<input type="checkbox" name="terms" value="Agree" required>
+							</div>
+							<input type="submit" value="Register">
+						</form>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<!-- JAVASCRIPT -->
+		<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

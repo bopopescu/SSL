@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<h2>Blog</h2>
+		<form action="/blog/add" method="post">
+			<input type="text" placeholder="Name">
+			<textarea placeholder="comment"></textarea>
+			<input type="submit" value="Post">
+		</form>
+
+		<form class="entries" action="/blog/update" method="post">
+			<ul>
+			{% for blog in blog %}
+				<li>
+					<input type="hidden" value="{{blog.id}}">
+					<input type="text" value="{{blog.name}}">
+					<textarea>{{blog.entry}}</textarea>
+					<a href="/blog/delete">Delete</a>
+				</li>
+				<input type="submit" value="Update">
+			{% endfor %}
+			</ul>
+		</form>
+	</body>
+</html>
+

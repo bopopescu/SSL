@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Weather</title>
+
+	<link rel="stylesheet" href="main.css">
+
+	<script  src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+<body>
+	<h2>Check Your Weather</h2>
+	<form id='commenting' method='POST' action='weather.php'>
+		<input type="text" name="city" id="city" placeholder="Enter City Name"  onkeyup="checkcity(this.value)">
+		<input type='submit'>
+	</form>
+	<div id="cityresponse"></div>
+
+	<script src="main.js"></script>
+</body>
+</html>
