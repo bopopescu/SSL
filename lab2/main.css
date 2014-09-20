@@ -1,0 +1,73 @@
+html{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+body{
+	background: #fefefe;
+}
+span{
+	width:960px;
+	margin:0 auto;d
+	isplay:block;
+	color:#E66665;
+	font-size:1.25em;
+}
+div{
+	float: left;
+	margin-left: 20%;
+}
+form{
+	width: 300px;
+	margin: 30px auto 0;
+}
+input[type="file"]{
+	text-indent: 100%;
+}
+button,input[type=button],input[type=reset],input[type=submit]{
+	text-transform:capitalize;
+	position:relative;
+	vertical-align:top;
+	width:90%;
+	height:60px;
+	padding:15px;
+	font-size:1.375em;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 1px 2px rgba(0,0,0,.25);
+	background:#17898A;
+	border:0;
+	border-bottom:2px solid #325757;
+	cursor:pointer;
+	-webkit-box-shadow:inset 0 -2px #325757;
+	box-shadow:inset 0 -2px #325757;
+}
+button:active,input[type=button]:active,input[type=reset]:active,input[type=submit]:active{
+	top:1px;
+	outline:0;
+	-webkit-box-shadow:none;
+	box-shadow:none
+}
+input{
+	width:calc(100% - 30px);
+	padding:1em;
+	margin-bottom:1em;
+	border-radius:5px;
+	border:#ccc solid 2px;
+	background:#fff;
+	clear:both
+	}
+input:focus{
+	outline:0;
+	border:#4D9379 solid 2px
+}
+
+img{
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #eee;
+}
+.thumb{
+	float: left;
+}
+.big{
+	clear: both;
+}

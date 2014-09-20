@@ -1,0 +1,35 @@
+html{
+	font-family: helvetica, arial, sans-serif;
+}
+form{
+	width: 400px;
+	margin: 0 auto;
+	padding: 5px 0;
+	box-shadow: 0 0 10px rgba(77,77,77,.6);
+}
+form div{
+	margin: 25px auto;
+	width: 370px;
+}
+form div:last-child{
+	margin-bottom: 10px;
+}
+label{
+	display: block;
+	width: 150px;
+	float: left;
+	margin-left: 10px;
+}
+input{
+	width: 200px;
+}
+.error{
+	text-align: center;
+	color: #ff0000;
+	font-weight: 800;
+}
+.submit{
+	width: 100px;
+	height: 30px;
+	margin: 0 135px;
+}
